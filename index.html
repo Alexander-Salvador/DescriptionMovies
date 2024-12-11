@@ -1,14 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Movie Search App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
+    <main class="movies__container">
+        <header class="movies__titles-section">
+            <h1>Que película buscas?</h1>
+        </header>
+        <div class="movies__inputs-section">
+            <input type="text" id="searchInput" placeholder="Ejemplo: Hulk">
+            <button id="searchButton">Buscar</button>
+            <div id="results"></div>
+        </div>
+        <script src="script.js"></script>
+    </main>
 </body>
 
 </html>
